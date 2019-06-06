@@ -1,0 +1,18 @@
+{
+  "name": "webpack-side-effect-loading",
+  "version": "0.0.0",
+  "description": "Example repo showing effects of side-effecty modules in ES modules",
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-deep-scope-plugin": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:reexports": "webpack --config webpack.config.reexport.js --display-reasons",
+    "build:direct": "webpack --config webpack.config.directly.js --display-reasons"
+  },
+  "author": "Kashyap Kondamudi",
+  "license": "MIT"
+}
