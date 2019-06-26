@@ -28,3 +28,11 @@ The entrypoint that imports `b.js` and `c.js` directly works as one'd expect.
 But the entrypoint where the `b` and `c` modules are imported via the
 `polyfill.js` generates a final bundle that also includes the code that's
 imported in `a.js` (React, in this example)!
+
+
+___
+
+
+Similar long-running issue: https://github.com/webpack/webpack/issues/4453
+
+It concerns a different problem, but has some overlap with reexports.
