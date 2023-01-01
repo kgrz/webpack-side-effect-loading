@@ -4,8 +4,8 @@
   "description": "Example repo showing effects of side-effecty modules in ES modules",
   "dependencies": {
     "react": "^16.8.6",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.3.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-deep-scope-plugin": "^1.6.0"
   },
   "devDependencies": {},
